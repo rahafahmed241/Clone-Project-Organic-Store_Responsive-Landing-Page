@@ -1,0 +1,389 @@
+html, body{
+    overflow-x: hidden;
+    
+}
+body{
+    background-color: black;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather','Georgia','serif';
+}
+::selection{
+    background-color: rgb(151, 189, 75);
+    color: black;
+}
+.header{
+    min-height: 75px;
+    max-height: 120px;
+}
+.logo{
+    width: 80%;
+    max-width: 150px;
+}
+.nav-links{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.nav-links a{
+    color: black;
+    text-decoration: none;
+}
+.nav-links a:hover{
+    color: rgb(151, 189, 75);
+}
+.menu-btn {
+    background-color: rgb(151, 189, 75);
+    color: white;
+    border: none;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.nav-price{
+    color: rgb(151, 189, 75);
+}
+.sec1-btn{
+    color: white;
+    background-color: rgb(116, 153, 43);
+    width: 170px;
+    height: 50px;
+    border: none;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec1-btn:hover{
+    background-color: rgb(143, 180, 69);
+}
+.section{
+    background-color: rgb(251, 248, 248, 0.938);
+}
+.customize-btn{
+    background-color: white;
+    color: black;
+    width: 130px;
+    height: 50px;
+    border: none;
+    font-size: 16px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+}
+.customize-btn:hover{
+    color: rgb(59, 59, 243);
+}
+.icon-custom:hover{
+    color: rgb(59, 59, 243);
+}
+.custom-div{
+    right: 0%;
+    top: 30%;
+    z-index: 9999;
+}
+.cart-btn{
+    background-color: rgb(116, 153, 43);
+    color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    font-size: 18px;
+    position:relative;
+}
+.cart-div{
+    right: 5%;
+    top: 78%;
+    z-index: 9999;
+}
+@media(min-width: 768px){
+    .cart-div{
+        top: 85%;
+        right: 3%;
+    }
+}
+.cart-num{
+    background-color: rgb(77, 170, 131);
+    color: rgb(255, 255, 255);
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 12px;
+    top: 1px;
+    left: -3px;
+}
+.sec2{
+    background-color: black;
+}
+.cardsec2{
+    background-color: rgb(51, 50, 50);
+    color: white;
+    /* display: flex; */
+    /* align-items: center; */
+    /* width: 90%;
+    margin-top: 15px; */
+    /* padding: 25px 25px; */
+    border-radius: 8px;
+    height: 100%;
+    /* outline: 8px solid black; */
+    /* border: 8px solid transparent;
+    background-clip: padding-box; */
+    /* padding-left: 15px; */
+}
+.icon-sec2{
+    font-size: 30px;
+    color: rgb(143, 180, 69);
+}
+.textsec3{
+    font-size: 24px;
+}
+@media(min-width: 768px) {
+    .textsec3{
+        font-size: 28px ;
+    }
+}
+@media(min-width:992px) {
+    .textsec3{
+        font-size: 32px;
+    }
+}
+
+.groceries{
+    color: rgb(121, 116, 116);
+    font-size: 14px ;
+}
+.product4{
+    position:relative;
+    
+}
+.sale{
+    position: absolute;
+    top: -5px;
+    right: 10px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    color: black;
+    background-color: rgb(143, 180, 69);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+.secfarm{
+    /* display: flex;
+    justify-content: center; */
+    position: relative;
+    /* overflow-x: hidden ; */
+    background-color: rgba(251, 248, 248, 0.938);
+}
+.basel_leaf{
+    position: absolute;
+    top: -25px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 150px;
+}
+.sec5-btn{
+    color: white;
+    background-color: rgb(116, 153, 43);
+    width: 170px;
+    height: 50px;
+    border: none;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    
+}
+.sec5-btn:hover{
+    background-color: rgb(143, 180, 69);
+    
+}
+.farm_card{
+    color: black;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    padding: 24px;
+    border-radius: 8px;
+    justify-content: space-between;
+    gap: 16px;
+    position: relative;
+}
+.farm_img{
+    position: absolute;
+    right: 16px;
+    bottom: 10px;
+    /* align-self: end; */
+}
+.fresh_card{
+    color: black;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 24px;
+    border-radius: 8px;
+    justify-content: space-between;
+    gap: 16px;
+    position: relative;
+    margin-top: 1px;
+}
+.fresh_img{
+    position: absolute;
+    right: 5px;
+    bottom: 10px;
+    /* align-self: end; */
+}
+.organic_card{
+    color: black;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 24px;
+    border-radius: 8px;
+    justify-content: space-between;
+    gap: 16px;
+    position: relative;
+    margin-top: 1px;
+    margin-bottom: 60px;
+}
+.organic_img{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    /* align-self: end; */
+}
+.offer{
+    background-color: black;
+    color: white;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    padding: 38px 0;
+    margin: 0;
+    /* width: 100vw;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%); */
+    
+
+}
+.triangle{
+    position: absolute;
+    bottom: -42px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 80px;
+}
+
+@media(min-width: 992px){
+    .offer{
+        padding: 60px 30px;
+    }
+    .text-offer{
+        font-size: 40px;
+    }
+}
+.try{
+    background-color: rgba(251, 248, 248, 0.938);
+    padding: 30px 0;
+    
+}
+.reviews-text{
+    padding-bottom: 30px;
+}
+.review1{
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.stars{
+    font-size: 12px;
+}
+.deal{
+    color: white;
+    background-image: linear-gradient(rgba(21, 20, 20, 0.714)), url(./media/imgi_70_sydney-rae-668606-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    padding: 30px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    transition: ease 2s ;
+}
+.deal:hover{
+    background-image: linear-gradient(rgba(21, 20, 20, 0.879)) , url(./media/imgi_70_sydney-rae-668606-unsplash.jpg);
+    
+}
+
+.review1-text{
+    padding: 15px ;
+}
+@media(min-width:992px){
+    .deal{
+        padding-top: 100px;
+        padding-bottom: 40px;
+        padding-left: 40px;
+        padding-right: 40px;
+        margin-bottom: 0;
+        margin: 0 60px;
+        font-size: 16px;
+        width: 360px;
+    }
+    .review1{
+        height: 360px;
+        width: 340px;
+        padding: 50px 35px;
+
+    }
+    .stars{
+        font-size: 15px ;
+        padding-bottom: 0px;
+    }
+    .reviews-text{
+        padding-bottom: 100px;
+        padding-top: 60px;
+        
+    }
+    .cust-rev{
+        font-size: 30px;
+    }
+
+}
+.footer-text{
+    color: white;
+}
+.footer{
+    background-color: black;
+    margin-bottom: 0px;
+
+}
+ul a{
+    color: rgb(139, 135, 135);
+}
+ul a:hover{
+    color: rgb(255, 253, 253);
+}
+.social-icons{
+    filter: brightness(0) invert(1);
+}

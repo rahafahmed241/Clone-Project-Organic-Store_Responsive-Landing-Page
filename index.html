@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap-5.3.8-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body style="font-size: 17px;">
+<div style="background-color: white;">
+    <!-- Customize... -->
+    <div class="custom-div position-fixed">
+        <button class="customize-btn d-flex align-items-center justify-content-center ">
+            <i class="icon-custom fa-solid fa-palette fa-canvas-square" ></i>
+            <span class="custom ps-2 fw-bold">Customize</span>
+        </button>
+    </div>
+    <!-- cart.... -->
+    <div class="cart-div position-fixed ">
+        <button class="cart-btn d-flex align-items-center justify-content-center">
+            <i class="fa-solid fa-cart-shopping fa-flip-horizontal"></i>    
+            <span class="cart-num position-absolute">
+                0
+            </span>
+        </button>
+    </div>
+    <!-- page... -->
+    <div class="container-fluid">
+        <div class="row">
+            <!-- header.... -->
+            <div class="header row py-md-3 align-items-center">
+                <!-- logo.... -->
+                <div class=" d-flex justify-content-center justify-content-md-start col-4 col-md-3 ps-md-3 ps-lg-5">
+                    <img class="img-fluid logo" src="./media/organic-store-logo5.svg" alt="" >
+                </div>
+                <!-- links... -->
+                <div class=" d-none d-md-block col-md-6 ">
+                    <ul class="header-links w-100 nav-links d-flex justify-content-evenly align-items-center">
+                        <li>
+                            <a href="">About</a>
+                        </li>
+                        <li>
+                            <a href="">Everything</a>
+                        </li>
+                        <li>
+                            <a href="">Groceries</a>
+                        </li>
+                        <li>
+                            <a href="">Juice</a>
+                        </li>
+                        <li>
+                            <a href="">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- icons... -->
+                <div class=" col-8 col-md-3 d-flex align-items-center justify-content-end">
+                    <button class="menu-btn d-md-none "><i class="fa-solid fa-bars fa-canvas-square" style="color: rgb(255, 255, 255);"></i></button>
+                <div class="d-none d-md-flex align-items-center gap-2">
+                    <span class="nav-price fw-bold">$0.00</span>
+                    <i class="fa-solid fa-basket-shopping fa-canvas-square" style="color: rgb(151, 189, 75);"></i>
+                    <i class="fa-solid fa-user fa-canvas-square" style="color: rgb(0, 0, 0);"></i>
+                </div>
+                </div>
+            </div>
+            <!-- End header..... -->
+
+            <!-- 1st Section.... -->
+            <div class="section row m-0 mb-3">
+                <div class="col-md-6 order-md-2 pt-5 mt-2 ps-md-4">
+                    <div class="d-flex justify-content-center justify-content-md-start align-items-center ">
+                        <img class="img-fluid" src="./media/logo-leaf-new.png" alt="" width="120px">
+                    </div>
+                    <div class="pt-2 pt-md-4 h5 text-center text-md-start">Best Quality Products</div>
+                    <div class="pt-2 pt-md-3 h1 fw-bold text-center text-md-start">Join The Organic Movement!</div>
+                    <div class="pt-md-2 lh-sm h6 pt-1 text-center text-md-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</div>
+                    <div class=" d-flex justify-content-center align-items-center justify-content-md-start pt-5 text-nowrap">
+                        <button class="sec1-btn">
+                            <i class="fa-solid fa-cart-shopping fa-canvas-square" style="color: rgb(255, 255, 255);"></i>
+                            <span class="ps-1">SHOP NOW</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="pt-5 mt-3 col-md-6 order-md-1 pe-md-5">
+                    <img class="img-fluid" src="./media/organic-products-hero.png" alt="">
+                </div>
+            </div>
+            <!-- section 2 -->
+            <div class="features-section bg-black py-4 py-lg-5 mt-5">
+                <div class="container-fluid px-2">
+                    <div class="row g-3">
+      
+                    <!-- Card 1 -->
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="cardsec2 p-3 p-md-4 d-flex flex-column flex-md-row align-items-md-center gap-2">
+                                <div class="icon-wrapper">
+                                    <i class="icon-sec2 fa-solid fa-truck"></i>
+                                </div>
+                                <div>
+                                    <div class="fw-bold">Free Shipping</div>
+                                    <div class="text-white-50 small">Above $5 Only</div>
+                                </div>
+                            </div>
+                        </div>
+
+                    <!-- Card 2 -->
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="cardsec2 p-3 p-md-4 d-flex flex-column flex-md-row align-items-md-center gap-2">
+                                <div class="icon-wrapper">
+                                    <i class="icon-sec2 fa-regular fa-address-card"></i>
+                                </div>
+                                <div>
+                                    <div class="fw-bold">Certified Organic</div>
+                                    <div class="text-white-50 small">100% Guarantee</div>
+                                </div>
+                            </div>
+                        </div>
+
+                    <!-- Card 3 -->
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="cardsec2 p-3 p-md-4 d-flex flex-column flex-md-row align-items-md-center gap-2">
+                                <div class="icon-wrapper">
+                                    <i class="icon-sec2 fa-regular fa-money-bill-1"></i>
+                                </div>
+                                <div>
+                                    <div class="fw-bold">Huge Savings</div>
+                                    <div class="text-white-50 small">At Lowest Price</div>
+                                </div>
+                            </div>
+                        </div>
+
+                    <!-- Card 4 -->
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="cardsec2 p-3 p-md-4 d-flex flex-column flex-md-row align-items-md-center gap-2">
+                                <div class="icon-wrapper">
+                                    <i class="icon-sec2 fa-solid fa-recycle"></i>
+                                </div>
+                                <div>
+                                    <div class="fw-bold">Easy Returns</div>
+                                    <div class="text-white-50 small">No Questions Asked</div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Best selling -->
+            <div class="sec3 mt-5 container-fluid px-0">
+                <div class="mt-3 mb-5 px-0">
+                    <div class="textsec3 fw-bold text-center">Best Selling Products</div>
+                    <div class="text-center pt-4">
+                        <img src="./media/logo-leaf-new.png" alt="" width="100px">
+                    </div>
+                </div>
+                <div class="img_bestselling row py-5 px-3 g-5">
+                    <div class="product1 text-center col-12 col-md-4 col-lg-3">
+                    <div>
+                        <img class="img-fluid" src="./media/media/Home - Organic Store/imgi_31_coffee-asorted.jpg" alt="">
+                    </div>
+                    <div class="groceries">Groceries</div>
+                    <div class="fw-bold">Assorted Coffee</div>
+                    <div class="fw-bold fs-6">$35.00</div>
+                    </div>
+
+                    <div class="product2 text-center col-12 col-md-4 col-lg-3">
+                    <div>
+                        <img class="img-fluid" src="./media/media/Home - Organic Store/imgi_34_sanitizer-600x600.jpg" alt="" >
+                    </div>
+                    <div class="groceries">Groceries</div>
+                    <div class="fw-bold">Hand Sanitizer</div>
+                    <div class="fw-bold fs-6">$15.00</div>
+                    </div>
+
+                    <div class="product3 text-center col-12 col-md-4 col-lg-3">
+                    <div>
+                        <img class="img-fluid" src="./media/media/Home - Organic Store/imgi_38_red-chillies-768x768.jpg" alt="" >
+                    </div>
+                    <div class="groceries">Groceries</div>
+                    <div class="fw-bold">Handpicked Red Chillies</div>
+                    <div class="fw-bold fs-6">$19.00</div>
+                    </div>
+
+                    <div class="product4 text-center col-12 col-md-4 col-lg-3">
+                    <div>
+                        <img class="img-fluid" src="./media/media/Home - Organic Store/imgi_44_edible-oil-600x600.jpg" alt="" >
+                    </div>
+                    <div class="groceries">Groceries</div>
+                    <div class="fw-bold">Natural Extracted Edible Oil</div>
+                    <div> 
+                        <span class="groceries text-muted text-decoration-line-through">$34.00</span>
+                        <span class="fw-bold fs-6">$25.00</span>
+                    <div class="sale">
+                        <span>sale!</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- farm.... -->
+            <div class="secfarm container-fluid pt-3 mt-5">
+                <div class="basel_leaf text-center ">
+                    <img class="img-fluid" src="./media/media/Home - Organic Store/imgi_8_basil-leaf.png" alt="">
+                </div>
+                <div class="row g-4 pt-5 px-3">
+                    <div class="col-12 col-lg-4">
+                        <div class="farm_card border-0 shadow">
+                            <div class="farm_text">
+                                <div class="h4"> Farm Fresh Fruits</div>
+                                <div>Ut sollicitudin quam vel purus tempus, vel eleifend felis varius.</div>
+                                <button class="sec5-btn">
+                                    SHOP NOW
+                                    <span class="ps-1 w-20"><i class="fa-solid fa-arrow-right-long" style="color: rgb(255, 255, 255);"></i></span>
+                                </button>
+                            </div>
+                            <img class="farm_img" src="./media/media/imgi_25_lemon-fruit-with-half-and-leaves-isolated-on-white.jpg" alt="" width="120px">
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-4">
+                        <div class="fresh_card border-0 shadow">
+                            <div class="farm_text">
+                                <div class="h4">Fresh Vegetables</div>
+                                <div>Aliquam porta justo nibh, id laoreet sapien sodales vitae justo.</div>
+                                <button class="sec5-btn">
+                                    SHOP NOW
+                                    <span class="ps-1 w-20"><i class="fa-solid fa-arrow-right-long" style="color: rgb(255, 255, 255);"></i></span>
+                                </button>
+                            </div>
+                            <img class="farm_img" src="./media/media/photo_2026-09-29_20-47-41-removebg-preview.png" alt="" width="150px">
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-4">
+                        <div class="organic_card border-0 shadow">
+                            <div class="organic_text">
+                                <div class="h4">Organic Legume</div>
+                                <div>Phasellus sed urna mattis, viverra libero sed, aliquam est.</div>
+                                <button class="sec5-btn">
+                                    SHOP NOW
+                                    <span class="ps-1 w-20"><i class="fa-solid fa-arrow-right-long" style="color: rgb(255, 255, 255);"></i></span>
+                                </button>
+                            </div>
+                            <img class="organic_img" src="./media/media/imgi_56_8869.webp" alt="" width="120px">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                    <!-- offer... -->
+                    <div class="offer  position-relative mt-0 px-md-3">
+                        <div class="container-fluid ">
+                            <div class="row align-items-center g-3">
+                                <div class="d-flex justify-content-center justify-content-md-start align-items-md-center col-12 col-md-9">
+                                    <h3 class=" text-offer fs-md-4 fw-bold fs-md-1">Get 25% Off Your First Purchase!</h3>
+                                </div>
+                                <div class=" col-12 col-md-3 d-flex justify-content-center justify-content-md-end">
+                                    <button class="sec1-btn ">
+                                        <i class="fa-solid fa-cart-shopping fa-canvas-square" style="color: rgb(255, 255, 255);"></i>
+                                        <span class="ps-1">SHOP NOW</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                                <i class="fa-solid fa-caret-down triangle" style="color: rgb(0, 0, 0);"></i>
+                    </div>
+
+                    <!-- try.... -->
+                     <div class="try container-fluid">
+                        <div class="text-center">
+                            <h4 class="try-text fw-bold">Try It For Free. No Registration Needed.</h4>
+                        </div>
+                     </div>
+
+                    <!-- trending..... -->
+                     <div class="trending container-fluid pt-5">
+                        <div class="row">
+                            <div class="text-center">
+                                <h3 class="fw-bold">Trending Products</h3>
+                                <div class="pt-3">
+                                    <img class="img-fluid" src="./media/logo-leaf-new.png" alt="" width="100px">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="img_bestselling row pt-4 pb-1 px-4 g-5">
+                            <div class="product1 text-center col-12 col-md-4 col-lg-3">
+                                <div>
+                                    <img class="img-fluid" src="./media/media/Home - Organic Store/imgi_31_coffee-asorted.jpg" alt="">
+                                </div>
+                                <div class="groceries">Groceries</div>
+                                <div class="fw-bold">Assorted Coffee</div>
+                                <div class="fw-bold fs-6">$35.00</div>
+                            </div>
+
+                            <div class="product2 text-center col-12 col-md-4 col-lg-3">
+                                <div>
+                                    <img class="img-fluid" src="./media/media/Home - Organic Store/imgi_51_orage-juice-kariz.jpg" alt="" width="">
+                                </div>
+                                <div class="groceries">juice</div>
+                                <div class="fw-bold">Fresh Orange Juice</div>
+                                <div class="fw-bold fs-6">$18.00</div>
+                            </div>
+
+                             <div class="product3 text-center col-12 col-md-4 col-lg-3">
+                                <div>
+                                    <img class="img-fluid" src="./media/media/Home - Organic Store/imgi_36_sanitizer.jpg" alt="" >
+                                </div>
+                                <div class="groceries">Groceries</div>
+                                <div class="fw-bold">Hand Sanitizer</div>
+                                <div class="fw-bold fs-6">$15.00</div>
+                            </div>
+
+                            <div class="product4 text-center col-12 col-md-4 col-lg-3">
+                                <div>
+                                    <img class="img-fluid" src="./media/media/Home - Organic Store/imgi_39_red-chillies-600x600.jpg" alt="" >
+                                </div>
+                                <div class="groceries">Groceries</div>
+                                 <div class="fw-bold">Handpicked Red Chillies</div>
+                                <div class="fw-bold fs-6">$19.00</div>
+                                </div>
+                            </div>
+
+                            <!-- Reviews... -->
+                            <div class="reviews container-fluid pt-4 pb-3">
+                                <div class="row">
+                                    <div class="reviews-text text-center">
+                                        <h4 class="pb-3 cust-rev fw-bold">Customers Reviews</h4>
+                                        <div>
+                                            <img class="img-fluid" src="./media/logo-leaf-new.png" alt="" width="100px">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row g-5 d-flex align-items-end justify-content-center px-4 g-lg-5 flex-wrap flex-lg-nowrap ">
+                                    <div class="review1 border-0 shadow col-12 col-lg-3">
+                                        <div class="text-center">
+                                            <span><i class="stars fa-solid fa-star" style="color: rgb(255, 212, 59);"></i></span>
+                                            <span><i class="stars fa-solid fa-star" style="color: rgb(255, 212, 59);"></i></span>
+                                            <span><i class="stars fa-solid fa-star" style="color: rgb(255, 212, 59);"></i></span>
+                                            <span><i class="stars fa-solid fa-star" style="color: rgb(255, 212, 59);"></i></span>
+                                            <span><i class="stars fa-solid fa-star" style="color: rgb(255, 212, 59);"></i></span>
+                                        </div>
+                                        <div class="review1-text text-center ">
+                                            Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                                        </div>
+                                        <div class="text-center">
+                                            <span><img src="./media/media/Home - Organic Store/imgi_10_client02-free-img.png" alt="" width="50px"></span>
+                                            <span class="ps-2">Mila Kunis</span>
+                                        </div>
+                                    </div>
+                                    <div class="deal border-0 shadow col-12 col-lg-3">
+                                        <div class="text-center">
+                                            <div class="deal1 fw-bold pb-3 pb-md-4 h3">Deal Of The Day 15% Off On All Vegetables!</div>
+                                            <div class="deal2">I am text block. Click edit button to change this tex em ips.</div>
+                                            <div class="d-flex justify-content-center align-items-center">
+                                                <button class="sec5-btn">
+                                                    SHOP NOW
+                                                    <span class="ps-1 w-20"><i class="fa-solid fa-arrow-right-long" style="color: rgb(255, 255, 255);"></i></span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="review1 border-0 shadow col-12 col-lg-3">
+                                        <div class="text-center">
+                                            <span><i class="stars fa-solid fa-star" style="color: rgb(255, 212, 59);"></i></span>
+                                            <span><i class="stars fa-solid fa-star" style="color: rgb(255, 212, 59);"></i></span>
+                                            <span><i class="stars fa-solid fa-star" style="color: rgb(255, 212, 59);"></i></span>
+                                            <span><i class="stars fa-solid fa-star" style="color: rgb(255, 212, 59);"></i></span>
+                                            <span><i class="stars fa-solid fa-star" style="color: rgb(255, 212, 59);"></i></span>
+                                        </div>
+                                        <div class="review1-text text-center">
+                                            Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                                        </div>
+                                        <div class="text-center">
+                                            <span><img src="./media/media/Home - Organic Store/imgi_11_client01-free-img.png" alt="" width="50px"></span>
+                                            <span class="ps-2">Mike Sendler</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <!-- Featured... -->
+                            <div class="featured pt-5 py-3 container-fluid px-3 px-md-5">
+                                <div class="row align-items-center justify-content-start justify-content-md-between gy-3 gy-md-0">
+                                    <div class="col-12 col-md-auto text-center text-md-start">
+                                        <h5 class="m-0 fw-bold text-nowrap">Featured Brands:</h5>
+                                    </div>
+
+        
+                                    <div class="col-12 col-md">
+                                        <div class="row align-items-center justify-content-center gy-3 gy-md-0">
+                
+                                            <div class="col-6 col-md text-center">
+                                                <img src="./media/media/Home - Organic Store/imgi_12_logoipsum-215.svg" alt="" class="img-fluid" width: 100px>
+                                            </div>
+                                            <div class="col-6 col-md text-center">
+                                                <img src="./media/media/Home - Organic Store/imgi_12_logoipsum-215.svg" alt="" class="img-fluid" width: 100px>
+                                            </div>
+                                            <div class="col-6 col-md text-center">
+                                                <img src="./media/media/Home - Organic Store/imgi_12_logoipsum-215.svg" alt="" class="img-fluid" width: 100px;>
+                                            </div>
+                                            <div class="col-6 col-md text-center">
+                                                <img src="./media/media/Home - Organic Store/imgi_12_logoipsum-215.svg" alt="" class="img-fluid" width: 100px>
+                                            </div>
+                                            <div class="col-6 col-md text-center">
+                                                <img src="./media/media/Home - Organic Store/imgi_12_logoipsum-215.svg" alt="" class="img-fluid" width: 100px>
+                                            </div>
+                                            <div class="col-6 text-center d-md-none">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+</div>
+                    <!-- footer... -->
+                    <div class="text-white py-5 px-4 footer container-fluid mb-0">
+                        <div class="row text-center text-md-start gy-4 ">
+                            <div class="col-12 col-md-3">
+                                    <img src="./media/Capture.PNG" alt="" class="footer-img my-3 ps-md-4">
+                                    <p class="footer-text fs-5 pe-5 ps-4">
+                                        Maecenas mi justo, interdum at consectetur vel, tristique et arcu.
+                                    </p>
+                            </div>
+
+                            <div class="col-12 col-md-3">
+                                <h5 class="fw-bold mb-3">Website</h5>
+                                <ul class="list-unstyled">
+                                    <li class="mb-1"><a href="" class="text-decoration-none">About</a></li>
+                                    <li class="mb-1"><a href="" class="text-decoration-none">Everything</a></li>
+                                    <li class="mb-1"><a href="" class="text-decoration-none">Groceries</a></li>
+                                    <li class="mb-1"><a href="" class="text-decoration-none">Juice</a></li>
+                                    <li class="mb-1"><a href="" class="text-decoration-none">Contact</a></li>
+                                </ul>
+                            </div>
+
+            
+                            <div class="col-12 col-md-3">
+                                <h5 class="fw-bold mb-3">Quick Links</h5>
+                                <ul class="list-unstyled">
+                                    <li class="mb-1"><a href="" class=" text-decoration-none">Know More About Us</a></li>
+                                    <li class="mb-1"><a href="" class=" text-decoration-none ">Visit Store</a></li>
+                                    <li class="mb-1"><a href="" class=" text-decoration-none ">Let's Connect</a></li>
+                                    <li class="mb-1"><a href="" class=" text-decoration-none ">Locate Stores</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="col-12 col-md-3">
+                                <h5 class="fw-bold mb-3">Site Links</h5>
+                                <ul class="list-unstyled">
+                                    <li class="mb-1"><a href="" class="text-decoration-none ">Privacy Policy</a></li>
+                                    <li class="mb-1"><a href="" class="text-decoration-none ">Shipping Details</a></li>
+                                    <li class="mb-1"><a href="" class="text-decoration-none">Offers Coupons</a></li>
+                                    <li class="mb-1"><a href="" class="text-decoration-none">Terms & Conditions</a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+
+                        <hr class="border-secondary my-4">
+
+                        <div class="d-flex flex-column flex-md-row justify-content-between align-items-center text-center px-4">
+                            <p class="text-white mb-3 mb-md-0">
+                                Copyright © 2026 | Organic Store
+                            </p>
+                            <div class="social-icons d-flex gap-3 ">
+                                <a href="" class=""><i ><img  src="./media/media/Home - Organic Store/download (7).svg" alt="" width="15px"></i></a>
+                                <a href="" class=" "><i > <img src="./media/media/Home - Organic Store/download (3).svg" alt="" width="15px"></i></a>
+                                <a href="" class=""><i> <img src="./media/media/Home - Organic Store/download (2).svg" alt=""  width="15px"></i></a>
+                                <a href="" class=""><i> <img src="./media/media/Home - Organic Store/download (6).svg" alt=""  width="15px"></i></a>
+                            </div>
+                        </div>
+    
+                    </div>
+                    
+
+        </div>
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/e898ad5e6c.js" crossorigin="anonymous"></script>
+    <script src="./bootstrap-5.3.8-dist/js/bootstrap.js"></script>
+</body>
+</html>
